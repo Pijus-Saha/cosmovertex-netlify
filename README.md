@@ -9,7 +9,7 @@
 
 Bangladesh's premier English proficiency test preparation center and study abroad consultancy, based in Dhaka. Official web platform for **COSMOVERTEX** (also established under **Doctor of SEL** & **Sky2Edu**).
 
-🌐 **Official Website**: [https://cosmovertex.edu.bd](https://cosmovertex.edu.bd)
+🌐 **Official Website**: [https://cosmovertex.com](https://cosmovertex.com)
 
 ---
 
@@ -95,8 +95,7 @@ COSMOVERTEX empowers Bangladeshi students to achieve their international educati
 | **Form Handling** | [React Hook Form](https://react-hook-form.com/) + [Zod 4](https://zod.dev/) |
 | **Email Delivery** | [Resend API](https://resend.com/) |
 | **Theming** | [next-themes](https://github.com/pacocoursey/next-themes) (Dark/Light mode) |
-| **Analytics** | [@vercel/analytics](https://vercel.com/analytics) |
-| **Deployment** | [Vercel](https://vercel.com/) |
+
 
 ---
 
@@ -191,7 +190,7 @@ Populate the configuration values:
 
 ```env
 # Base URL for canonical links and OpenGraph previews
-NEXT_PUBLIC_SITE_URL=https://cosmovertex.edu.bd
+NEXT_PUBLIC_SITE_URL=https://cosmovertex.com
 
 # Email notifications via Resend (https://resend.com)
 RESEND_API_KEY=re_your_api_key_here
