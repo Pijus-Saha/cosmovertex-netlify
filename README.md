@@ -1,0 +1,251 @@
+# COSMOVERTEX — English Test Prep & Study Abroad Consultancy
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.3.4-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.8-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-13.2-ff0055?logo=framer)](https://www.framer.com/motion/)
+[![Resend](https://img.shields.io/badge/Resend-Email_API-black?logo=resend)](https://resend.com/)
+
+Bangladesh's premier English proficiency test preparation center and study abroad consultancy, based in Dhaka. Official web platform for **COSMOVERTEX** (also established under **Doctor of SEL** & **Sky2Edu**).
+
+🌐 **Official Website**: [https://cosmovertex.edu.bd](https://cosmovertex.edu.bd)
+
+---
+
+## 🌍 Overview
+
+COSMOVERTEX empowers Bangladeshi students to achieve their international education and language certification goals with personalized mentorship, verified track records, and direct institutional connections.
+
+- **Certified English Test Preparation**:
+  - **Duolingo English Test (DET)** — Comprehensive prep for 110+ target scores accepted by 5,000+ universities worldwide.
+  - **CEFR C1 Advanced – EnglishScore Core Skills Test** — Official British Council framework coaching for verified C1 Advanced certificates (achievements up to 599/600).
+  - **EF SET (Standard English Test)** — Fast-track CEFR certification accepted across South Korean and European universities.
+  - **IELTS Academic & General** — Targeted band 7.0+ coaching and module-wise strategies.
+  - **PTE Academic** — Computer-delivered exam strategies and AI scoring mastery for Australia, UK, Canada, and New Zealand.
+- **Global Study Abroad Consultancy**:
+  - **United States 🇺🇸** — Top universities, F-1 visa preparation, merit scholarships, and 3-year STEM OPT extensions.
+  - **United Kingdom 🇬🇧** — Russell Group applications, Foundation/Direct entry, 2-year Graduate Route Post-Study Work (PSW).
+  - **Canada 🇨🇦** — Top DLI colleges and universities, paid co-op internships, up to 3 years PGWP, and clear PR pathways.
+  - **Australia 🇦🇺** — High visa approval rates, direct pathways, and official delegation partnerships (including **Fusion College, Sydney**).
+  - **New Zealand 🇳🇿** — All 8 public universities in the global top 3%, up to 3-year Post-Study Work Visa, and Straight-to-Residence Green List pathways.
+  - **South Korea 🇰🇷** — SKY University admissions (Seoul National, Yonsei, Korea University), affordable tuition ($3,000–$8,000/yr), March & September intakes, D-10 & E-7 work visas.
+  - **Malaysia & Malaysia Pathway Programs 🇲🇾** — High-quality degrees at foreign branch campuses (Monash, Nottingham, Curtin) plus **Malaysia Pathway Programs** transferring seamlessly to the USA, UK, Canada, and Australia.
+  - **Europe & Schengen 🇪🇺** — High visa success across Lithuania, Slovenia, Greece, Hungary, Sweden, Finland, and Italy with 29-country Schengen mobility.
+- **Key Metrics**:
+  - **1,800+** successful test results since 2020
+  - **45+** partner universities worldwide
+  - **98%** student visa success rate
+  - **Max 5–10 students** per batch for dedicated 1-on-1 attention
+
+---
+
+## 🏫 Office Location & Contact
+
+| Branch | Address | Phone | Direct Line |
+|---|---|---|---|
+| **Banani** *(COSMOVERTEX INTERNATIONAL CONSULTANCY)* | House #38, Road #02, 1st Floor, Banani, Dhaka - 1213 | +880 1316-318387 | Mon–Sat, 10 AM – 7 PM |
+
+- 📧 **Email**: [info@cosmovertex.com](mailto:info@cosmovertex.com)
+- 💬 **WhatsApp**: [+880 1316-318387](https://wa.me/8801316318387)
+- 📘 **Facebook**: [facebook.com/CosmoVertex](https://www.facebook.com/CosmoVertex?_rdc=1&_rdr#)
+
+---
+
+## ✨ Key Features & User Experience
+
+### 1. Interactive Success Gallery & Lightbox Modal
+- Dynamic filterable showcase categorizing **Australia Delegation**, **British Council C1 Advanced**, **Visa Success**, **South Korea**, and **Europe**.
+- Immersive modal viewer with keyboard navigation (`Esc` to close, `Arrow` keys to browse), swipe support, and high-resolution certificate inspection.
+- Features verified scorecards (e.g., Dip Saha 599/600, Sneha 545, Mobarak 520, Mamun 497) and official high-level meets (Dr. Binod Shrestha, CEO of Fusion College Sydney).
+
+### 2. High-Conversion Lead Capture Engine
+- Unified contact and destination assessment forms backed by **React Hook Form** + **Zod** schema validation.
+- Dual-channel fulfillment:
+  - Direct 1-click **WhatsApp instant consultation** with auto-formatted inquiry parameters.
+  - Server-side email notifications routed through **Resend API** to `info@cosmovertex.com` with console fallback in development.
+
+### 3. Dedicated Destination Portals
+- Modular destination guides for **Australia**, **Europe**, **South Korea**, **UK**, and **USA**.
+- Structured quick facts: average tuition, application intakes, accepted English exams, and post-study work rights.
+- Interactive tabbed sections detailing step-by-step admission timelines, scholarship guides, and university lists.
+
+### 4. Media & Video Showcase
+- Responsive promo player supporting embedded Google Drive videos and YouTube streams with smooth overlay controls.
+
+### 5. SEO & Modern UI Infrastructure
+- Dynamic OpenGraph preview images, Twitter cards, and semantic HTML5.
+- Complete XML sitemap (`/sitemap.xml`) and search engine crawler instructions (`/robots.txt`).
+- Structured JSON-LD schemas (`EducationalOrganization` / `LocalBusiness`) for rich Google search indexing.
+- Dark & light mode with persistent user preference storage via `next-themes`.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Framework** | [Next.js 16.3.4](https://nextjs.org/) (App Router, Server Components & Route Handlers) |
+| **Runtime & Core** | [React 19.2.8](https://react.dev/) / React DOM 19 |
+| **Language** | [TypeScript 5](https://www.typescriptlang.org/) (strict mode) |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) with `@tailwindcss/postcss` & `tw-animate-css` |
+| **Animations** | [Framer Motion 13](https://www.framer.com/motion/) |
+| **UI Components** | [shadcn/ui](https://ui.shadcn.com/) + [@base-ui/react](https://base-ui.com/) |
+| **Icons** | [Lucide React](https://lucide.dev/) |
+| **Form Handling** | [React Hook Form](https://react-hook-form.com/) + [Zod 4](https://zod.dev/) |
+| **Email Delivery** | [Resend API](https://resend.com/) |
+| **Theming** | [next-themes](https://github.com/pacocoursey/next-themes) (Dark/Light mode) |
+| **Analytics** | [@vercel/analytics](https://vercel.com/analytics) |
+| **Deployment** | [Vercel](https://vercel.com/) |
+
+---
+
+## 📁 Project Structure
+
+```
+cosmovertex/
+├── app/
+│   ├── layout.tsx                     # Root layout, metadata, fonts, theme provider, JSON-LD
+│   ├── page.tsx                       # Homepage (Hero, Stats, Services, Destinations, LeadForm)
+│   ├── globals.css                    # Tailwind CSS v4 design tokens & base theme rules
+│   ├── favicon.ico                    # Brand favicon
+│   ├── contact/
+│   │   └── page.tsx                   # Contact page, office branch details, lead form
+│   ├── gallery/
+│   │   └── page.tsx                   # Student success gallery, promo video, lightbox viewer
+│   ├── services/
+│   │   └── page.tsx                   # Comprehensive test prep & consultancy service breakdown
+│   ├── destinations/
+│   │   ├── australia/page.tsx         # Australia study guide, intake info, visa pathways
+│   │   ├── europe/page.tsx            # Schengen / European countries guide
+│   │   ├── south-korea/page.tsx       # South Korea study guide (SKY, EF SET, D-10/E-7)
+│   │   ├── uk/page.tsx                # UK Russell Group & Graduate Route guide
+│   │   └── usa/page.tsx               # US university admissions & STEM OPT guide
+│   └── api/
+│       └── contact/
+│           └── route.ts               # Resend email handler with fallback logging
+├── components/
+│   ├── Navbar.tsx                     # Sticky responsive navigation, theme toggle, social links
+│   ├── Footer.tsx                     # Detailed footer, branch addresses, sitemap links
+│   ├── LeadForm.tsx                   # Interactive lead form with Zod & WhatsApp integration
+│   ├── StatsBanner.tsx                # Animated achievement counter strip
+│   ├── DestinationCard.tsx            # Study destination preview cards
+│   ├── ServicesTabs.tsx               # Interactive test prep tabs & course descriptions
+│   ├── SuccessGallery.tsx             # Filterable photo gallery with full lightbox modal
+│   ├── VideoPlayer.tsx                # Embedded promo video player
+│   ├── WhatsAppFloatingButton.tsx     # Persistent floating WhatsApp CTA
+│   ├── RoadmapTeaser.tsx              # Future platform roadmap & tech initiatives
+│   ├── theme-provider.tsx             # next-themes context provider
+│   ├── theme-toggle.tsx               # Light/Dark mode switcher
+│   ├── destination/
+│   │   ├── DestinationSimpleLayout.tsx # Reusable layout for study destination pages
+│   │   ├── DestinationHero.tsx        # Hero banner for country pages
+│   │   ├── DestinationLeadForm.tsx    # Compact country-specific assessment form
+│   │   ├── KeyMetricsGrid.tsx         # Key visa, cost, and intake metrics
+│   │   ├── UniversityProgramsList.tsx # Partner universities & popular degrees
+│   │   ├── AdmissionSteps.tsx         # Timeline & step-by-step roadmap
+│   │   └── WhatsAppCTA.tsx            # Contextual destination WhatsApp CTA
+│   └── ui/                            # Reusable shadcn/ui primitives (button, card, dialog, etc.)
+├── lib/
+│   └── utils.ts                       # Class variance authority & clsx/tailwind-merge helper
+├── public/
+│   ├── gallery/                       # High-resolution success certificates & meet-up photos
+│   ├── cosmovertex-logo.png           # Official brand logo
+│   ├── og-image.png                   # Open Graph social sharing banner
+│   ├── robots.txt                     # Crawler access rules
+│   └── sitemap.xml                    # Canonical search engine sitemap
+├── .env.example                       # Environment variable template
+├── .env.local                         # Local environment configuration (git-ignored)
+├── next.config.ts                     # Next.js configuration & remote image domains
+├── package.json                       # Project dependencies & scripts
+├── tsconfig.json                      # TypeScript configuration
+└── VERCEL_DEPLOYMENT.md               # Step-by-step deployment and DNS instructions
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 18.18 or higher recommended)
+- `npm`, `yarn`, `pnpm`, or `bun`
+
+### 1. Clone & Install
+
+```bash
+git clone https://github.com/pijussaha/cosmovertex.git
+cd cosmovertex
+npm install
+```
+
+### 2. Configure Environment Variables
+
+Copy `.env.example` to create your local `.env.local` file:
+
+```bash
+cp .env.example .env.local
+```
+
+Populate the configuration values:
+
+```env
+# Base URL for canonical links and OpenGraph previews
+NEXT_PUBLIC_SITE_URL=https://cosmovertex.edu.bd
+
+# Email notifications via Resend (https://resend.com)
+RESEND_API_KEY=re_your_api_key_here
+NOTIFICATION_EMAIL=info@cosmovertex.com
+
+# Direct WhatsApp contact number (international format without +)
+NEXT_PUBLIC_WHATSAPP_NUMBER=8801316318387
+
+# Promo Video URL (supports Google Drive share links or YouTube URLs)
+NEXT_PUBLIC_PROMO_VIDEO_ID=https://drive.google.com/file/d/1j-dp0gIaJ-G0BvI_X8SIiaETaXfwHWih/view?usp=sharing
+```
+
+> **Note**: If `RESEND_API_KEY` is not provided, the contact form automatically logs submissions to the terminal in development mode so you can test form flows without an API key.
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to inspect the application.
+
+---
+
+## 📜 Available Scripts
+
+| Script | Command | Purpose |
+|---|---|---|
+| `dev` | `npm run dev` | Starts local Next.js development server with Turbopack/HMR |
+| `build` | `npm run build` | Compiles TypeScript and builds optimized production bundle |
+| `start` | `npm run start` | Runs the production build locally |
+| `lint` | `npm run lint` | Executes ESLint to check for code quality and syntax issues |
+
+---
+
+## 🚢 Deployment
+
+The project is optimized for deployment on both **[Netlify](https://www.netlify.com/)** and **[Vercel](https://vercel.com/)**.
+
+### Deploying on Netlify (Pre-Configured)
+The repository includes a ready-to-use [`netlify.toml`](./netlify.toml), `@netlify/plugin-nextjs`, and [`.node-version`](./.node-version).
+1. Connect this repository to your Netlify account via **"Add new site" → "Import an existing project"**.
+2. Netlify will auto-detect Next.js and apply build settings (`npm run build`, publish dir `.next`).
+3. Add environment variables under **Site configuration → Environment variables**.
+4. Click **Deploy**.
+
+For detailed step-by-step instructions, environment variables reference, custom domain DNS, and troubleshooting, read [`NETLIFY_DEPLOYMENT.md`](./NETLIFY_DEPLOYMENT.md).
+
+### Deploying on Vercel
+For deploying on Vercel, refer to [`VERCEL_DEPLOYMENT.md`](./VERCEL_DEPLOYMENT.md).
+
+---
+
+## 📄 License & Ownership
+
+Private repository. All rights reserved © **COSMOVERTEX**.
+Unauthorized reproduction or commercial redistribution of brand assets, gallery media, or proprietary course information is strictly prohibited.
