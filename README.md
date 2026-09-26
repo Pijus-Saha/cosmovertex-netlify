@@ -95,7 +95,8 @@ COSMOVERTEX empowers Bangladeshi students to achieve their international educati
 | **Form Handling** | [React Hook Form](https://react-hook-form.com/) + [Zod 4](https://zod.dev/) |
 | **Email Delivery** | [Resend API](https://resend.com/) |
 | **Theming** | [next-themes](https://github.com/pacocoursey/next-themes) (Dark/Light mode) |
-
+| **Analytics** | [@vercel/analytics](https://vercel.com/analytics) |
+| **Deployment** | [Vercel](https://vercel.com/) |
 
 ---
 
@@ -201,9 +202,26 @@ NEXT_PUBLIC_WHATSAPP_NUMBER=8801316318387
 
 # Promo Video URL (supports Google Drive share links or YouTube URLs)
 NEXT_PUBLIC_PROMO_VIDEO_ID=https://drive.google.com/file/d/1j-dp0gIaJ-G0BvI_X8SIiaETaXfwHWih/view?usp=sharing
+
+# Optional: Google Sheets Live CRM Sync (Apps Script Webhook)
+GOOGLE_SHEET_WEBHOOK_URL=https://script.google.com/macros/s/AKfycb.../exec
 ```
 
 > **Note**: If `RESEND_API_KEY` is not provided, the contact form automatically logs submissions to the terminal in development mode so you can test form flows without an API key.
+
+### 📬 Managing Leads & Gmail Organization (Filter Setup)
+
+To keep your **Primary inbox 100% clean** and prevent incoming lead alerts from cluttering personal/client emails, set up a dedicated Gmail filter:
+
+1. **Open Search Options**: In Gmail search bar, click the sliders icon on the far right.
+2. **Set Filter Condition**:
+   - **Subject**: `[COSMOVERTEX Lead]` *(All form submissions start with this exact tag)*
+3. **Choose Actions** (click **Create filter**):
+   - ☑️ **Skip the Inbox (Archive it)**
+   - ☑️ **Apply the label**: create a new label (e.g. `🎯 Leads` or `Cosmovertex Leads`)
+   - ☑️ **Never send it to Spam**
+   - ☑️ **Also apply filter to matching conversations**
+4. **Result**: Inquiries bypass your Primary inbox and file automatically under your `🎯 Leads` folder with an unread badge counter and 1-click WhatsApp chat link.
 
 ### 3. Run Development Server
 
