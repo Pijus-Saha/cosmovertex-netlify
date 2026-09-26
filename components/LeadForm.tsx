@@ -836,7 +836,7 @@ Please confirm my counseling appointment schedule. Thank you!`;
                       id="lead-fullName"
                       type="text"
                       autoComplete="name"
-                      placeholder="e.g. Tanvir Ahmed"
+                      placeholder="e.g. Pijus Saha"
                       {...register("fullName")}
                       className={`w-full px-4 py-3 pl-10 rounded-xl border bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 text-sm focus:outline-none focus:ring-2 transition-all ${
                         errors.fullName
@@ -867,7 +867,7 @@ Please confirm my counseling appointment schedule. Thank you!`;
                       id="lead-phoneNumber"
                       type="tel"
                       autoComplete="tel"
-                      placeholder="01316318387"
+                      placeholder="01780463330"
                       {...register("phoneNumber")}
                       className={`w-full px-4 py-3 pl-10 rounded-xl border bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 text-sm focus:outline-none focus:ring-2 transition-all ${
                         errors.phoneNumber
@@ -900,7 +900,7 @@ Please confirm my counseling appointment schedule. Thank you!`;
                       id="lead-email"
                       type="email"
                       autoComplete="email"
-                      placeholder="student@example.com"
+                      placeholder="pijussahaofficial@gmail.com"
                       {...register("email")}
                       className={`w-full px-4 py-3 pl-10 rounded-xl border bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 text-sm focus:outline-none focus:ring-2 transition-all ${
                         errors.email
